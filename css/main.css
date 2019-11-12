@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    padding-top: 74px;
+}
+
+
+/* Navigation */
+nav{
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 4px solid #8fc74a;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav .logo{
+    display: flex;
+    align-items: center;
+    color: #000;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.nav .logo img{
+    width: 50px;
+    margin-left: 8px;
+}
+
+
+.links .link{
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    margin-left: 32px;
+    font-size: 18px;
+    transition: all 0.1s linear;
+}
+
+.links .link:hover{
+    color: #7dbd2e;
+}
+
+@media screen and (max-width: 600px) {
+    .nav{
+        flex-direction: column;
+        height: 110px;
+    }
+    .nav .logo{
+        padding-top: 12px;
+    }
+
+    .links{
+        padding-bottom: 12px;
+    }
+}
+
+/* End Nav */
+
+
+/* Slider */
+.slider{
+    height: 400px;
+}
+
+
+/* End slider */
+
+
+/* Main */
+
+/* Products */
+
+.categories{
+    display: flex;
+    padding: 24px;
+    /* border-bottom: 2px solid #8fc74a; */
+    border-top: 2px solid #8fc74a;
+    margin-bottom: 48px;
+}
+
+.category{
+    text-decoration: none;
+    color: #000;
+    margin-right: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.15s linear;
+}
+
+.category:hover{
+    color: #8fc74a;
+    text-shadow: 1px 1px 1px #000000;
+}
+
+.category_active{
+    color: #8fc74a;
+}
+
+.prod_items{
+    text-align: center;
+}
+
+.prod_item{
+    padding: 16px;
+    /* border: 1px solid #000; */
+    transition: all .15s ease-in-out;
+}
+
+.prod_item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 50px -25px #afafaf;
+}
+
+.prod_item img{
+    width: 100%;
+}
+
+.prod_item .text{
+    margin: 24px 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.prod_item .prod_btn{
+    display: inline-block;
+    margin-bottom: 24px;
+    border: 1px solid #8fc74a;
+    text-decoration: none;
+    color: #8fc74a;
+    font-weight: 500;
+    padding: 12px 28px;
+    transition: all 0.15s linear;
+}
+
+.prod_item .prod_btn:hover{
+    color: #fff;
+    background-color: #8fc74a;
+}
+
+
+@media screen and (max-width: 600px) {
+
+}
+
+/* End products */
+
