@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Galito</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/grid/grid.min.css">
     <link rel="stylesheet" href="css/main.css">
@@ -42,7 +43,7 @@
             </div>
 
             <div class="prod_items">
-                <div class="row">
+                <div class="row category_content show">
                     <div class="col-6 col-md-3 prod_item">
                         <img src="img/logo.png" alt="">
                         <div class="text">
@@ -77,8 +78,8 @@
 
         <section class="about">
             <div class="row">
-                <div class="col-md-5">
-                    <div class="about-heading">
+                <div class="col-md-6 about-left">
+                    <div class="about-heading text-center">
                         Galito
                     </div>
                     <div class="about-text">
@@ -89,23 +90,24 @@
                     </a>
                 </div>
                 <div class="col-md-6">
-                    <img src="" alt="">
+                    <img src="img/logo.png" alt="" class="about-img"> 
                 </div>
             </div>
         </section>
+    </main>
 
         <section class="address">
             <div class="cart">
-
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1781.9576433714954!2d69.28053961500878!3d41.31139600781317!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b2931f41f23%3A0x81095e06b654b845!2z0KHQutCy0LXRgCDQuNC8LiDQkNC80LjRgNCwINCi0LXQvNGD0YDQsA!5e0!3m2!1sru!2s!4v1573766289844!5m2!1sru!2s" width="100%" height="500" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
             </div>
 
-            <div class="contact">
+            <div class="contact container">
                 <div class="contact-heading">
                     Контакты
                 </div>
 
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md">
                         <div class="contact-sub">
                             Телефон:
                         </div>
@@ -113,7 +115,7 @@
                             +998 71 222-22-22
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md">
                         <div class="contact-sub">
                             Телефон:
                         </div>
@@ -121,7 +123,7 @@
                             +998 71 222-22-22
                         </div>
                     </div>
-                    <div class="col-md-4">
+                    <div class="col-md">
                         <div class="contact-sub">
                             Телефон:
                         </div>
@@ -139,12 +141,25 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <a href="#" class="logo"></a>
+                    <a href="#" class="logo">
+                        Galito <img src="img/logo.png" alt="">
+                    </a>
                 </div>
-                <div class="col-md-8">
-                    <div class="social">
-                        <a href="">Ins</a>
-                        <a href="">Face</a>
+                <div class="col-md-8 d-flex align-items-center">
+                    <div class="social d-inline-flex ml-auto">
+                        
+                        <div class="text">
+                            <span>&copy;</span> All rights reserved 
+                        </div>
+                        
+                        <a href="">
+                            <i class="fa fa-instagram"></i>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-facebook"></i>
+                        </a>
+
+
                     </div>  
                 </div>
             </div>
@@ -153,7 +168,7 @@
     
 
     
-    
+    <script src="js/jquery-3.4.1.min.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>

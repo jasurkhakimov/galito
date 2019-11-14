@@ -83,6 +83,10 @@ nav{
 
 /* Products */
 
+.products{
+    margin-bottom: 80px;
+}
+
 .categories{
     display: flex;
     padding: 24px;
@@ -102,7 +106,6 @@ nav{
 
 .category:hover{
     color: #8fc74a;
-    text-shadow: 1px 1px 1px #000000;
 }
 
 .category_active{
@@ -157,3 +160,157 @@ nav{
 
 /* End products */
 
+
+/* About */
+.about{
+    border-top: 2px solid #8fc74a;
+    padding-top: 80px;
+    margin-bottom: 80px;
+}
+
+.about-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-heading{
+    font-size: 48px;
+    font-weight: 600;
+    margin-bottom: 48px;
+}
+
+.about-text{
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 48px;
+    line-height: 1.3;
+    margin-bottom: 48px;
+}
+
+.about-link{
+    display: block;
+    margin-bottom: 24px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
+    padding: 12px 28px;
+    transition: all 0.15s linear;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 0 25px -5px #90ff08;
+    background: #8fc74a;
+    border-radius: 2px;
+}
+
+.about-link:hover{
+    color: #fff;
+    background-color: #5d911d;
+}
+
+.about-img{
+    width: 100%;
+    padding: 24px;
+}
+
+/* End about */
+
+
+/* Address */
+
+.address{
+    border-top: 1px solid #8fc74a;
+}
+
+.contact{
+    margin-top: 54px;
+    margin-bottom: 64px;
+}
+
+.contact .col-md{
+    padding: 24px;
+    margin-right: 12px;
+    border-radius: 10px;
+    border: 1px solid #89d131;
+
+}
+
+.contact-heading{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 54px;
+}
+
+.contact-sub{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #71a136;
+}
+
+.contact-info{
+    font-size: 22px;
+}
+
+/* End address */
+
+/* footer */
+
+.footer{
+    background-color: #191919;
+    padding: 92px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.logo img{
+    width: 75px;
+    margin-left: 8px;
+}
+
+.social{
+    display: flex;
+    align-items: center;
+}
+
+.social a{
+    color: #fff;
+    padding: 10px 12px;
+    margin-right: 12px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 32px;
+    border-radius: 5px;
+    transition: all 0.2s linear;
+}
+
+.social a:hover{
+    color: #89d131;
+    background-color: #fff;
+}
+
+.social .text{
+    margin-right: 24px;
+    font-size: 18px;
+    color: #969696
+}
+
+.social .text span{
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+/* end footer */
